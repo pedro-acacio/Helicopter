@@ -1,13 +1,14 @@
 # Helicopter
 
-Jogo de física em [p5.js](https://p5js.org/) + [matter.js](https://brm.io/matter-js/): controle um helicóptero que precisa entregar um pacote sem cair no chão.
+Jogo de física em [p5.js](https://p5js.org/) + [matter.js](https://brm.io/matter-js/): mova um helicóptero carregando um pacote e solte-o no momento certo para acertar uma caixa alvo no chão.
 
 ## Como jogar
 
 Abra `index.html` no navegador — não precisa de instalação nem servidor.
 
-- Segure o mouse/clique para o helicóptero subir, solte para descer
-- O objetivo é manter o helicóptero no ar e entregar o pacote com segurança
+- Seta esquerda / seta direita: move o helicóptero (e o pacote, que ainda está preso a ele) horizontalmente
+- Seta para baixo: solta o pacote, que passa a cair sob física do matter.js (gravidade e colisão)
+- O objetivo é soltar o pacote na hora certa para que caia dentro da caixa vermelha desenhada no chão
 
 ## Estrutura
 
