@@ -1,21 +1,21 @@
 # Helicopter
 
-Jogo de física em [p5.js](https://p5js.org/) + [matter.js](https://brm.io/matter-js/): mova um helicóptero carregando um pacote e solte-o no momento certo para acertar uma caixa alvo no chão.
+Physics game built with [p5.js](https://p5js.org/) + [matter.js](https://brm.io/matter-js/): fly a helicopter carrying a package and drop it at the right moment to hit a target box on the ground.
 
-## Como jogar
+## How to play
 
-Abra `index.html` no navegador — não precisa de instalação nem servidor.
+Open `index.html` in your browser — no installation or server required.
 
-- Seta esquerda / seta direita: move o helicóptero (e o pacote, que ainda está preso a ele) horizontalmente
-- Seta para baixo: solta o pacote, que passa a cair sob física do matter.js (gravidade e colisão)
-- O objetivo é soltar o pacote na hora certa para que caia dentro da caixa vermelha desenhada no chão
+- Left arrow / right arrow: moves the helicopter (and the package, still attached to it) horizontally
+- Down arrow: drops the package, which then falls under matter.js physics (gravity and collision)
+- The goal is to drop the package at the right time so it lands inside the red box drawn on the ground
 
-## Estrutura
+## Structure
 
-- `sketch.js` — física do voo (matter.js) e lógica do jogo
-- `index.html` — carrega p5.js, matter.js, p5.play e o sketch
+- `sketch.js` — flight physics (matter.js) and game logic
+- `index.html` — loads p5.js, matter.js, p5.play and the sketch
 - `helicopter.png`, `package.png` — sprites
 
-## Rodando localmente
+## Running locally
 
-Nenhuma dependência externa: as bibliotecas já estão incluídas no repositório. Basta abrir `index.html` direto no navegador ou servir a pasta com qualquer servidor estático (ex: `npx serve .`).
+No external dependencies: the libraries are already included in the repository. Just open `index.html` directly in the browser or serve the folder with any static server (e.g. `npx serve .`).
